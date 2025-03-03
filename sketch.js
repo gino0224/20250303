@@ -51,5 +51,7 @@ function goToLink() {
     window.open('https://www.tku.edu.tw/', '_blank');
   } else if (selected === '教科系') {
     window.open('https://www.et.tku.edu.tw/', '_blank');
+  } else if (selected === '第三周') {
+    window.open('https://drive.google.com/file/d/1e2AtFEnETQ7GRO4eSTuLA3r-LmBEyd3W/view', '_blank');
   }
 }
