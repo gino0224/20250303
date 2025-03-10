@@ -20,6 +20,7 @@ function setup() { // p5.js function
   dropdown.option('淡江大學');
   dropdown.option('教科系');
   dropdown.option('第三周');
+   dropdown.option('第四周測驗卷');
   dropdown.changed(goToLink);
 }
 
@@ -53,5 +54,6 @@ function goToLink() {
     window.open('https://www.et.tku.edu.tw/', '_blank');
   } else if (selected === '第三周') {
     window.open('https://drive.google.com/file/d/1e2AtFEnETQ7GRO4eSTuLA3r-LmBEyd3W/view', '_blank');
-  }
+  } else if (selected === '第四周測驗卷') {
+    window.open('https://gino0224.github.io/0310/');
 }
